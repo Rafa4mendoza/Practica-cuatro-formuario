@@ -1,0 +1,66 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#iniciar{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(../img/top-view-person-writing-laptop-with-copy-space.jpg);
+    background-size: cover;
+}
+
+.container{
+    background-color: rgb(81, 200, 230);
+    height: auto;
+    width: max-content;
+    padding: 5px 30px 5px 30px;
+    border-radius: 10px;
+}
+.flex{
+    display: flex;
+}
+
+.flex-row{
+    flex-direction: row;
+}
+
+.flex-column{
+    flex-direction: column;
+}
+
+/*alineacion horizontal*/
+
+.flex-center{
+    justify-content: space-between;
+}
+
+.flex-right{
+    justify-content: right;
+}
+
+.flex-left{
+    justify-content: left;
+}
+
+.flex-start{
+    justify-content: start;
+}
+
+.flex-end{
+    justify-content: end;
+}
+
+/*alineacion vertical*/
+.aling-start{
+    align-items: flex-start;
+}
+
+.align-end{
+    align-items: flex-end;
+}
+
+.align-center{
+    align-items: center;
+}
